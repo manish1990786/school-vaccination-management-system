@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
+  color: #212121;
+}
+
+.MuiDrawer-paper {
+  background-color: white;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.75rem;
+  background-color: #e0e0e0;
+}
+
+.chip.success {
+  background-color: rgba(76, 175, 80, 0.12);
+  color: #4caf50;
+}
+
+.chip.warning {
+  background-color: rgba(255, 152, 0, 0.12);
+  color: #ff9800;
+}
+
+.chip.danger {
+  background-color: rgba(244, 67, 54, 0.12);
+  color: #f44336;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background-color: #f5f5f5;
+  text-align: left;
+  padding: 16px;
+  font-weight: 500;
+  color: #757575;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.table td {
+  padding: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.table tr:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
