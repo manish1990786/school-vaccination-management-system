@@ -239,6 +239,3 @@ npm run lint       # Run ESLint
 - JWT authentication
 - PDFKit for PDF generation
 - CSV parsing/generation
-
-## License
-MIT License
